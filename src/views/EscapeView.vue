@@ -1,7 +1,7 @@
 <template>
-    <div class="max-w-lg text-sm font-medium px-2">
+    <div class="max-w-sm text-sm font-medium px-2">
         <div class="text-xl mt-4 text-red-500 font-bold p-2">gel gbathr</div> 
-        <div class="px-8 py-2">
+        <div class="py-2">
             <vue-scratchable v-slot="{ init }" :brushOptions="brush" :hideOptions="hide" getPercentageCleared @percentageUpdate="updatePoints">
               <h1 class="text-gray-500">Name this <span class="text-xs">Rot13</span> location to access /ohg</h1>
                 <div class="wrapper">

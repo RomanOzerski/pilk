@@ -1,6 +1,6 @@
 <template>
-    <div class="max-w-lg text-sm font-medium px-2">
-        <div class="px-8 py-2">
+    <div class="max-w-sm text-sm font-medium px-2">
+        <div class="py-2">
             <vue-scratchable v-slot="{ init }" :brushOptions="brush" :hideOptions="hide" getPercentageCleared @percentageUpdate="updatePoints">
                 <div class="wrapper">
                     <img :src="require('../assets/PS5.png')" @load="init()">

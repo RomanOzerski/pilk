@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-lg text-sm font-medium px-2">
+    <div class="max-w-sm text-sm font-medium px-2">
         <div class="text-xl mt-4 text-red-500 font-bold p-2">gel gbathr ohg ubyr</div>
         <div class="p-2"><a href="https://rot13.com/" class="text-blue-600 underline bg-white">Rot13</a></div>
         <div>
