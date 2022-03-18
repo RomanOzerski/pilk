@@ -1,25 +1,52 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
+import NelsonView from '../views/NelsonView.vue'
+import LunaView from '../views/LunaView.vue'
+import EscapeView from '../views/EscapeView.vue'
+import PancakeView from '../views/PancakeView.vue'
+import FuckRoman from '../views/FuckRoman.vue'
+import LmaoPilk from '../views/LmaoPilk.vue'
+import CummiesPog from '../views/CummiesPog.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'nelson',
+    component: NelsonView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-    }
-  }
+    path: '/gel',
+    name: 'luna',
+    component: LunaView
+  },
+  {
+    path: '/gbathr',
+    name: 'escape',
+    component: EscapeView
+  },
+  {
+    path: '/ohg',
+    name: 'pancake',
+    component: PancakeView
+  },
+  {
+    path: '/ubyr',
+    name: 'lmaopilk',
+    component: LmaoPilk
+  },
+  {
+    path: '/unknownxd',
+    name: 'fuckroman',
+    component: FuckRoman
+  },
+  {
+    path: '/cummies',
+    name: 'cummiespog',
+    component: CummiesPog
+  },
 ]
 
 const router = new VueRouter({
