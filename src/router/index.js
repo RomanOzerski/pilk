@@ -49,7 +49,7 @@ const routes = [
   },
   {
     path: '/simi',
-    name: 'SimiPog',
+    name: 'simipog',
     component: SimiPog
   },
 ]
