@@ -47,11 +47,11 @@ const routes = [
     name: 'cummiespog',
     component: CummiesPog
   },
-  // {
-  //   path: '/simi',
-  //   name: 'simipog',
-  //   component: SimiPog
-  // },
+  {
+    path: '/simi',
+    name: 'simipog',
+    component: SimiPog
+  },
 ]
 
 const router = new VueRouter({
