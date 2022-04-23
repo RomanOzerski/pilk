@@ -1,10 +1,9 @@
 <template>
     <div class="max-w-xs text-sm font-medium">
-      <div class="text-xl mt-4 text-red-500 font-bold p-2">simi streamer rank</div>
         <div class="py-2">
             <vue-scratchable v-slot="{ init }" :brushOptions="brush" :hideOptions="hide" getPercentageCleared @percentageUpdate="updatePoints">
                 <div class="wrapper">
-                    <img :src="require('../assets/PS5.png')" @load="init()">
+                    <img :src="require('../assets/radiant.png')" @load="init()">
                 </div>
             </vue-scratchable>
         </div>
